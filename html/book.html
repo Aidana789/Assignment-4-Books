@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book store</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="text/css" href="C:\Users\Администратор\Desktop\books\photos\icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/books.css"> 
+
+    <link rel="icon" href="../favicon_io/favicon.ico">
+</head>
+<body>
+<nav class="navbar fixed-top navbar-expand-lg" id="home" style="background-color: black; height: 50px;">
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <ul class="home">
+        <li><a href="../html/book.html" class="nav-link"><img src="http://www.punyamishra.com/wp-content/uploads/2008/08/book.png" width="100"></a></li>
+        <li id="two" style="margin-left: 14px;"><a class="nav-link" href="../html/audiobook.html">Audiobooks</a></li>
+        <li id="two"><a class="nav-link" href="#">Classics</a></li>
+        <li id="two"><a class="nav-link" href="#">Fantasy</a></li>
+        <li id="two"><a class="nav-link" href="#">Horror</a></li>
+        <li id="two"><a class="nav-link" href="#">Literary Fiction</a></li>
+        <li id="two"><a class="nav-link" href="#">Detective</a></li>
+        </ul>
+      </div>
+        <div class="search" id = "sear">
+        <input type = "text" placeholder ="Search..." class = "input" id ="keywords"><button class = "buttonx" onclick="buttonx()">✖</button>
+        </div>
+        <a class="btn1" href="#" id = "butn" onclick="Search()"> Search</a>
+        <a class="btn" href="#"> <img src="C:\Users\Администратор\Desktop\books\photos\hand.png" width="13%" height="7%">     Turn off ads</a>
+
+      
+    </div>
+
+</nav><br><br>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="margin-top: 6%;">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../photos/1.jpeg" width="600px" height = "300px" class="d-block" >
+    </div>
+    <div class="carousel-item">
+      <img src="../photos/2.jpeg" width="600px" height = "300px" class="d-block">
+    </div>
+    <div class="carousel-item">
+      <img src="../photos/3.jpeg" width="600px" height = "300px" class="d-block">
+    </div>
+    <div class="carousel-item">
+      <img src="../photos/4.jpeg" width="600px" height = "300px" class="d-block">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<br>
+<div class="middle"><br>
+<p>Books can consist only of drawings, engravings or photographs, crossword puzzles or cut-out dolls. In a physical book, the pages can be left blank or can feature an abstract set of lines to support entries, in an account book, an appointment book, an autograph book, a notebook, a diary or a sketchbook. Some physical books are made with pages thick and sturdy enough to support other physical objects, like a scrapbook or photograph album. Books may be distributed in electronic form as e-books and other formats.<span id="dots"></span><span id="more"><br><br>The word book comes from Old English bōc, which in turn comes from the Germanic root *bōk-, cognate to 'beech'. In Slavic languages like Russian, Bulgarian, Macedonian буква bukva—'letter' is cognate with 'beech'. In Russian, Serbian and Macedonian, the word букварь (bukvar') or буквар (bukvar) refers to a primary school textbook that helps young children master the techniques of reading and writing. It is thus conjectured that the earliest Indo-European writings may have been carved on beech wood. The Latin word codex, meaning a book in the modern sense (bound and with separate leaves), originally meant 'block of wood'.<br><br></span></p>
+<a onclick="myFunction()" id="myBtn" style="text-decoration: underline;  cursor: pointer; margin-left:88%;">Read more↓</a><br><br>
+ 
+<h1 style="font-weight: bold; text-align: center; font-weight: 1000; font-size: 55px;">Modern books</h1>
+
+<div id="carouselExampleIndicatorss" class="carousel slide" data-bs-ride="carousel" style="margin-top: 0%;">  
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicatorss" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicatorss" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  </div>
+  <div class="carousel-inner" style="margin: 3%;">
+    <div class="carousel-item active">
+      <div class="row">
+         <div class="col-lg-4 col-md-4 col-sm-12" id="muha"><br>
+
+      <a href="">
+      <img src="https://imgix.bustle.com/uploads/image/2018/5/10/ba05af3c-ce12-4a9e-b348-bde3cab43816-9780590469012_mres.jpg?w=414&h=600&fit=crop&crop=faces&auto=format%2Ccompress&q=50&dpr=2" width="260" height="370" class="imggg"></a><br><br>
+      <a href="" style="color: #f8bf01; font-weight: 1000; font-size: 15px; text-decoration: underline;">'Maus' by Art Spiegelman</a>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12"><br>
+      <a href="">
+      <img src="https://imgix.bustle.com/uploads/image/2018/5/10/ef848920-6e32-46d2-bbe5-bd2530226ac7-813lxbsm0rl.jpg?w=414&h=656&fit=crop&crop=faces&auto=format%2Ccompress&q=50&dpr=2" width="260" height="370"></a><br><br>
+      <a href="" style="color: #f8bf01; font-weight: 1000; font-size: 15px; text-decoration: underline;">'Americanah' by Chimamanda <br>Ngozi Adichie</a>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12"><br>
+      <a href="">
+      <img src="https://imgix.bustle.com/uploads/image/2018/5/10/1d774971-aecd-4ba7-8d97-062ad194605e-81u4sibym2l.jpg?w=414&h=639&fit=crop&crop=faces&auto=format%2Ccompress&q=50&dpr=2" width="260" height="370"></a><br><br>
+      <a href="" style="color: #f8bf01; font-weight: 1000; font-size: 15px; text-decoration: underline;">'Never Let Me Go' by Kazuo <br>Ishiguro</a>
+     
+    </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12"><br>
+      <a href="">
+      <img src="https://imgix.bustle.com/uploads/image/2018/5/10/c2b34fe7-3051-4d0d-b0c0-40d648ae7582-dscn10691.jpg?w=414&h=493&fit=crop&crop=faces&auto=format%2Ccompress&q=50&dpr=2" width="260" height="370"></a><br><br>
+      <a href="" style="color: #f8bf01; font-weight: 1000; font-size: 15px; text-decoration: underline;">
+'The Name of the Rose' by <br>Umberto Eco</a>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12"><br>
+      <a href="">
+      <img src="https://imgix.bustle.com/uploads/image/2018/5/10/a4043049-0e35-41d1-9880-c8def565b131-whiteteeth.jpeg?w=414&h=640&fit=crop&crop=faces&auto=format%2Ccompress&q=50&dpr=2" width="260" height="370"></a><br><br>
+      <a href="" style="color: #f8bf01; font-weight: 1000; font-size: 15px; text-decoration: underline;">'White Teeth' by Zadie Smith</a>
+      
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12"><br>
+      <a href="">
+      <img src="https://imgix.bustle.com/uploads/image/2018/5/10/c116a08d-f2d9-4df1-b65a-48cb6100b686-81nlyoifesl.jpg?w=414&h=635&fit=crop&crop=faces&auto=format%2Ccompress&q=50&dpr=2" width="260" height="370"></a><br><br>
+      <a href="" style="color: #f8bf01; font-weight: 1000; font-size: 15px; text-decoration: underline;">'Sing, Unburied, Sing' by <br> Jesmyn Ward
+</a>
+    </div>
+      </div>
+    </div>
+  </div>
+     <h1 class="kino" style="font-weight: bold; text-align: center; font-weight: 1000; font-size: 55px;"><u>Top three genres</u></h1>
+
+<div class="container features" style="margin-top: -1.5%;">
+  <div class="row" style="margin: 2%;">
+    <div class="col-lg-4 col-md-4 col-sm-12"><br>
+      <a href="">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/81YOuOGFCJL.jpg" width="260" height="370"></a><br><br>
+      <a href="" style="color: #f8bf01; font-weight: 1000; font-size: 25px;text-decoration: underline;">Fantasy</a>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12"><br>
+      <a href="">
+      <img src="https://res.cloudinary.com/bookbub/image/upload/t_ci_new_browse_cover,f_auto,q_auto/v1488473206/pro_pbid_166268.jpg" width="260" height="370"></a><br><br>
+      <a href="" style="color: #f8bf01; font-weight: 1000; font-size: 25px; text-decoration: underline;">Horror</a>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12"><br>
+      <a href="">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/81uo9+fAKBL.jpg" width="260" height="370"></a><br><br>
+      <a href="" style="color: #f8bf01; font-weight: 1000; font-size: 25px; text-decoration: underline;">Classic</a>
+    </div>
+         <h1  style="font-weight: bold; text-align: center; font-weight: 1000; font-size: 55px;">Best Sellers of 2022</h1>
+    <div class="col-lg-4 col-md-4 col-sm-12"><br>
+      <a href="">
+      <img src="https://m.media-amazon.com/images/I/71aiTCR69YS.jpg" width="260" height="370"></a><br><br>
+      <a href="" style="color: #f8bf01; font-weight: 1000; font-size: 20px; text-decoration: underline;">The Midnight Library</a>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12"><br>
+      <a href="">
+      <img src="https://images3.penguinrandomhouse.com/cover/9780593358344" width="260" height="370"></a><br><br>
+      <a href="" style="color: #f8bf01; font-weight: 1000; font-size: 20px; text-decoration: underline;">Black Cake</a>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12"><br>
+      <a href="">
+      <img src="https://images.penguinrandomhouse.com/cover/9780735222359" width="260" height="370"></a><br><br>
+      <a href="" style="color: #f8bf01; font-weight: 1000; font-size: 20px; text-decoration: underline;">The Lincoln Highway</a>
+    </div>
+  </div>
+</div><br><br>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorss"  data-bs-slide="prev" style="margin-left: -3%;">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorss"  data-bs-slide="next" style="margin-right: -3%;">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../scripts/readmore.js"></script>
+
+<footer>
+    <h1 style="font-weight: bold; text-align: center; font-weight: 1000; font-size: 50px;">Here you can find all the books</h1><br>
+  <div class = "footer">
+    <ul>
+      <a style="color: #f8bf01; font-weight: 1000; font-size: 20px;">New ones</a>
+      <li style = "font-size: 25px; font-weight: 1000;">2022 and 2021</li>
+      <a style="color: #f8bf01; font-weight: 1000; font-size: 20px;">Related with KZ</a>
+      <li style = "font-size: 25px;font-weight: 1000;">Histosy of Kazakh nation</li>
+      <a style="color: #f8bf01; font-weight: 1000; font-size: 20px;">Mostly viewed</a>
+      <li style = "font-size: 25px; font-weight: 1000;">For men</li>
+      <li style = "font-size: 25px; font-weight: 1000;">For women</li>
+    </ul>
+    <ul>
+      <a style="color: #f8bf01; font-weight: 1000; font-size: 20px; text-decoration: underline;">About company</a>
+      <li>News</li>
+      <li>History of the company</li>
+      <li>Vacancies</li>
+    </ul>
+    <ul>
+      <a  style="color: #f8bf01; font-weight: 1000; font-size: 20px; text-decoration: underline;">Projects</a>
+      <li>Come and change</li>
+      <li>Meloman.kz</li>
+      <li>Marwin.kz</li>
+    </ul>
+    <ul>
+      <a  style="color: #f8bf01; font-weight: 1000; font-size: 20px; text-decoration: underline;">For clients</a>
+      <li>Delivery</li>
+      <li>Purchase returns</li>
+      <li>FAQ</li>
+    </ul>
+    <ul>
+      <a  style="color: #f8bf01; font-weight: 1000; font-size: 20px; text-decoration: underline;">Corporate block</a>
+      <li>Press Contacts</li>
+      <li>Social responsibility</li>
+      <li>Rent of premises</li>
+    </ul>
+    <ul>
+      <a  style="color: #f8bf01; font-weight: 1000; font-size: 20px; text-decoration: underline;">Choice of books</a>
+      <li>2022</li>
+      <li>2021</li>
+      <li>2020</li>
+      <li>2019</li>
+      <li>2018</li>
+      <li>Action</li>
+      <li>Families & Relationships</li>
+      <li>Detectives</li>
+      <li>Documentary</li>
+      <li>Dramas</li>
+      <li>Comedy</li>
+      <li>Adventure </li>   
+      <li>Mystery</li>
+      <li>Westerns</li>
+      <li>Dystopian</li>
+      <li>Contemporary.</li>
+      <li>Sci-Fi</li>
+      <li>Romance</li>
+      <li>Children’s</li>
+      <li>Humor</li>
+
+    </ul>
+  </div>
+  <div class = "foot">
+  <div class = "footer1">
+    <ul>
+      <li>About Us</li>
+      <li>Advertisement</li>
+      <li>Blog</li>
+      <li>Contact us</li>
+      <li>Help Center</li>
+      <li><a href="../html/registration.html">Sign up</a></li>
+    </ul>
+    <ul>
+      <li>© Book store</li>
+      <li>Agreement</li>
+      <li>Privacy Policy</li>
+    </ul>
+  </div>  
+  
+</div>
+</footer>
+<br>
+</body>
+</html>

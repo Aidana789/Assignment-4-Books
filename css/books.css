@@ -1,0 +1,174 @@
+body, html{
+	background-color: black;
+  background-size:cover;
+  background-image: url(https://wallpaperaccess.com/full/124383.jpg);
+  background-repeat: no-repeat;
+  font-family: 'Akaya Telivigala', cursive;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+.buttonx{
+  border: 0;
+background-color: #f8bf01; 
+}
+
+.search{
+  margin-left: 15%;
+display: none;
+}
+.btn1{
+    font-size: 15px;
+  font-family: 'Akaya Telivigala', cursive;  color: white;
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  color: #fff;
+  font-size: 15px;
+  background: #f8bf01;
+  text-decoration: none; 
+  border: solid #f8bf01 0px;
+  padding: 7px;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-top: 5px;
+  margin-left: 25%;
+}
+.btn1:hover {
+  color: black;
+  background: #f8bf01;
+  text-decoration: none;
+}
+
+.d-block {
+  border-radius: 8%;
+}
+
+.btn{
+  
+  font-size: 15px;
+  font-family: 'Akaya Telivigala', cursive;
+  color: white;
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none; 
+  border: solid #f8bf01 0px;
+  padding: 2px;
+  margin-top: 5px;
+  margin-left: 1%;
+}
+.middle{
+  margin-top: 0;
+  background-color: white;
+  width: 71.1%;
+  margin: auto;
+}
+.firstPar{
+  margin:auto ;
+  text-align: center;
+  width: 71.1%;
+  height: 20%;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 16px;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 400;
+  background-color: white;
+
+}
+.footer{
+  display: flex;
+}
+.footer ul{
+  padding-left: 4%;
+  list-style-type: none;
+  display: inline-block;
+}
+.footer ul li{
+  text-decoration: underline;
+}
+.footer ul li:hover{
+  cursor: pointer;
+  color: #f8bf01;
+}
+
+.footer1 ul{
+ display: flex;
+}
+.footer1 ul li{
+  padding-left: 3%;
+  font-family: sans-serif;
+  font-size: 13px;
+ display: inline-block;
+  text-decoration: underline;
+}
+.footer1 ul li:hover{
+  cursor: pointer;
+  color: #f8bf01;
+}
+.social{
+  display: inline-block;
+  padding-top:3%;
+  padding-left: 15%;
+}
+.photo{
+  position: relative;
+  left: 65%;
+}
+
+.btn:hover {
+  background: #f8bf01;
+  text-decoration: none;
+}
+.home{
+  list-style-type: none;
+  padding: 5px;
+  margin:10px;
+  display: flex;
+  position: relative;
+  right: 14px;
+}
+.home li a{
+  text-decoration: none; 
+  color: white;
+  margin-top: 1.2%;
+  letter-spacing: 1px;
+}
+.home li a:hover{
+	color:#f8bf01;
+}
+
+#two{
+  margin-top: 1.2%;
+}
+.carousel-inner img{
+  margin: auto;
+}
+.carousel-control-prev{
+  margin-left: 20%;
+}
+.carousel-control-next{
+  margin-right: 20%;
+}
+#more {display: none;}
+.middle p{
+  margin: 2%;
+}
+#muha img:hover{
+  background-color: black;
+}
+#myBtn:hover{
+  transition: 0.3s;
+  color: #f8bf01;
+}
+.kino:hover{
+  transition: 0.1s;
+  color:#f8bf01; 
+}
